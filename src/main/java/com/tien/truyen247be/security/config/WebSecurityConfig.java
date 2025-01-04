@@ -116,7 +116,7 @@ public class WebSecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(Arrays.asList(
     "http://localhost:3000", 
-    "https://truyen247-fe-demo.onrender.com"
+    "https://truyen247.onrender.com"
 ));
 
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
